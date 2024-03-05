@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hi</title>
+</head>
+<body>
+    
+<div class="weather-box">
+    <img src="./images/clear.png" alt="">
+    <p class="temperature">{{TEMP}}°C</p>
+    <p class="description">{{DESC}}</p>
+</div>
+
+<div class="weather-details">
+    <div class="humidity">
+        <i class="fa-solid fa-water"></i>
+        <div class="text">
+            <span>{{HUMIDITY}}%</span>
+            <p>Humidity</p>
+        </div>
+    </div>
+    <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+        <div class="text">
+            <span>{{WIND}} hPa</span>
+            <p>Wind Speed</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
